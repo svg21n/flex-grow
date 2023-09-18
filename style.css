@@ -1,0 +1,57 @@
+.holder {
+display: flex;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+width: 300px;
+height: 50px;
+border: 3px solid black;
+border-radius:13px 13px 0px 0px ;
+
+
+}
+
+.item1 {
+  order: -1;
+  background-color: red;
+  flex-grow: 2;
+  width: 50%;
+  border-radius:10px 0px 0px 0px ;
+
+  
+  
+  
+}
+.item5 {
+  order: -1;
+  background-color: orange;
+  flex-grow: 2;
+  width: 50%;
+  border-radius:0px 10px 0px 0px ;
+
+}
+.item3 {
+  order: 1;
+  background-color: purple;
+  flex-grow: 1;
+  
+ 
+}
+.item2 {
+  order: 2;
+  background-color: blue;
+  flex-grow: 1;
+}
+.item4 {
+  order: 3;
+  background-color: green;
+  flex-grow: 1;
+}
+.container{
+   width: 300px;
+  height: 5px;
+
+  margin: auto auto;
+
+flex-wrap: wrap;
+}
